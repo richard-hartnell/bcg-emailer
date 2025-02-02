@@ -3,6 +3,7 @@ from datetime import date, timedelta
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+all_dates = []
 next_week = date.today() + timedelta(days=7)
 next_week_formatted = next_week.strftime("%B %d")
 three_days = date.today() + timedelta(days=3)
